@@ -1,0 +1,56 @@
+.pricingSection {
+  margin: 96px 48px;
+}
+
+.cointainer {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTitle {
+  color: #333;
+  font-size: 36px;
+  margin: 0;
+}
+
+.sectionDesc {
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.plansContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.planCard {
+}
+
+.planName {
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  margin: 16px;
+}
+
+.plan {
+  height: 600px;
+  width: 350px;
+  border: 1px solid #222;
+  border-radius: 10px;
+}

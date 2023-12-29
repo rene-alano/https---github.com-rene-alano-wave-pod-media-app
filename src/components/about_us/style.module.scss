@@ -1,0 +1,76 @@
+.aboutSection {
+  padding: 96px;
+}
+.aboutUsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.upperSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.title {
+  margin: 0;
+  color: #000;
+  font-size: 56px;
+  line-height: 1.6;
+}
+
+.rideContent {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.joinUsText {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.companyName {
+  color: #1971c2;
+  font-size: 44px;
+  font-weight: 700;
+}
+
+.name {
+  color: #1971c2;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.image {
+  width: 600px;
+  border-radius: 10px;
+}
+
+.lowerSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 16px;
+  background-color: #fff;
+}
+.contentSize {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  height: 150px;
+  padding: 24px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.2);
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+h3 {
+  font-size: 36px;
+}

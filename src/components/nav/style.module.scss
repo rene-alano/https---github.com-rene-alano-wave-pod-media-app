@@ -1,0 +1,31 @@
+//primary color #050b2e
+// secondary color #2148f5
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 116px;
+  padding: 0 4.8rem;
+
+  background-image: linear-gradient(
+    to right bottom,
+    #050b2e,
+    #001d5b,
+    #002c8d,
+    #003bc0,
+    #2148f5
+  );
+}
+
+.logoImage {
+  height: 96px;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}

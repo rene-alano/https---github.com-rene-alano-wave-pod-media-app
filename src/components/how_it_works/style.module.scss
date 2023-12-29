@@ -1,0 +1,141 @@
+.howItWorksSection {
+  padding: 48px 0 48px 0;
+  background-image: linear-gradient(
+    to bottom,
+    #91a7ff,
+    #859cfe,
+    #7892fc,
+    #6c87fa,
+    #5f7cf8,
+    #5775f3,
+    #4f6dee,
+    #4766e9,
+    #4360e0,
+    #3f5ad8,
+    #3a55cf,
+    #364fc7
+  );
+
+  display: flex;
+  justify-content: center;
+}
+
+.sectionContainer {
+  display: flex;
+  gap: 36px;
+  flex-direction: column;
+  padding: 48px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTitle {
+  margin: 0;
+  color: #edf2ff;
+  font-size: 42px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.description {
+  margin: 0;
+  color: #edf2ff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.stepsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 36px;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 24px;
+}
+
+.stepTitle {
+  color: #edf2ff;
+  font-size: 20px;
+  margin: 0;
+}
+
+.stepDesc {
+  color: #edf2ff;
+  font-size: 18px;
+  margin: 0;
+}
+
+.barChart {
+  justify-self: center;
+  height: 40px;
+  width: 40px;
+  color: #edf2ff;
+}
+
+.testimonialContainer {
+  max-width: 1200px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to right top,
+    #050b2e,
+    #091d51,
+    #152d76,
+    #243e9e,
+    #364fc7
+  );
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+  gap: 40px;
+}
+
+.testimonial {
+  padding: 26px;
+  color: #edf2ff;
+  font-size: 40px;
+  margin: 0;
+}
+
+.cofounder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.image {
+  height: 66px;
+  width: 66px;
+  border-radius: 50%;
+}
+.name {
+  color: #edf2ff;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.role {
+  color: #edf2ff;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}

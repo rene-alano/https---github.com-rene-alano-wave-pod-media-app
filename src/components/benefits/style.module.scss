@@ -1,0 +1,75 @@
+.benefitSection {
+  padding: 48px 48px 96px 48px;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 46px;
+}
+
+.title {
+  color: #333;
+  font-size: 36px;
+  margin: 0;
+}
+
+.titleDesc {
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 12px;
+  padding-bottom: 18px;
+}
+.BtnPlaceHolder {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 16px 32px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2148f5;
+}
+
+.listContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 24px;
+  column-gap: 12px;
+}
+
+.benefitTitle {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.desc {
+  font-size: 18px;
+  margin: 0;
+}
+
+.icon {
+  justify-self: center;
+  height: 40px;
+  width: 40px;
+  color: #000;
+  margin: 12px;
+}

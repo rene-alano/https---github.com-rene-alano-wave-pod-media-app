@@ -1,0 +1,67 @@
+.heroSection {
+  padding: 96px;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+
+  // display: grid;
+  // grid-template-columns: 1fr 1fr;
+  // gap: 96px;
+  // align-items: center;
+
+  padding: 48px;
+}
+
+.title {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin: 0;
+  text-align: center;
+}
+
+.description {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.6;
+  margin: 0;
+}
+.rightSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+}
+.buttonContainer {
+  padding-top: 104px;
+}
+.BtnPlaceHolder {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 600;
+  padding: 24px 38px;
+  border-radius: 70px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #2148f5;
+}
+
+.freeTrialText {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.leftSection {
+  background-color: #333;
+}
+.ImagePlaceholder {
+  text-align: center;
+  width: 100%;
+  font-size: 78px;
+  color: #fff;
+}

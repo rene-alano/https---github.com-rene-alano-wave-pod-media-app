@@ -1,0 +1,74 @@
+.plan {
+  height: 600px;
+  width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+}
+
+.planStandard {
+  height: 620px;
+  border: 2px solid #1c7ed6;
+  box-shadow: 2px 2px 30px #ddd;
+}
+.planCard {
+  margin: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.upperContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.planNameDesc {
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.planName {
+  color: #333;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.price {
+  color: #333;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px;
+}
+.button {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 16px 32px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  color: #000;
+}
+
+.lowerContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.lists {
+  list-style-type: none;
+  padding: 0;
+}
