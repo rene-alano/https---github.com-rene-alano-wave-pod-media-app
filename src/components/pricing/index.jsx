@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import styles from "./style.module.scss";
 import PlanCard from "./parts";
 export default function PricingSection() {
@@ -57,7 +58,7 @@ export default function PricingSection() {
   ];
   return (
     <>
-      <section className={styles.pricingSection}>
+      <section className={styles.pricingSection} id="pricing">
         <div className={styles.cointainer}>
           <div className={styles.titleContainer}>
             <h3 className={styles.sectionTitle}>Plans & Pricing</h3>

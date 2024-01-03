@@ -7,7 +7,7 @@ import { LogoInstagram } from "react-ionicons";
 export default function FooterSection() {
   return (
     <>
-      <section className={styles.footerSection}>
+      <section className={styles.footerSection} id="contactus">
         <div className={styles.container}>
           <div className={styles.upperContent}>
             <div className={styles.upperBoxContent}>

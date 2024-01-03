@@ -2,7 +2,7 @@ import styles from "./style.module.scss";
 export default function HeroSection() {
   return (
     <>
-      <div className={styles.heroSection}>
+      <div className={styles.heroSection} id="hero">
         <div className={styles.hero}>
           <div className={styles.rightSection}>
             <h1 className={styles.title}>

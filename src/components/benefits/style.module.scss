@@ -1,5 +1,14 @@
 .benefitSection {
-  padding: 48px 48px 96px 48px;
+  padding: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.sectionContainer {
+  display: flex;
+  gap: 36px;
+  flex-direction: column;
+  max-width: 1200px;
 }
 
 .titleContainer {
@@ -7,7 +16,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-bottom: 46px;
 }
 
 .title {
@@ -33,13 +41,20 @@
   cursor: pointer;
   color: #fff;
   background-color: #2148f5;
+  transform-origin: center;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .listContainer {
+  padding-bottom: 96px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 24px;
-  column-gap: 12px;
+  row-gap: 74px;
+  column-gap: 66px;
 }
 
 .benefitTitle {
@@ -53,6 +68,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .title {

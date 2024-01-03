@@ -6,7 +6,7 @@ import image from "../../assets/example.jpg";
 export default function HowItWorksSection() {
   return (
     <>
-      <div className={styles.howItWorksSection}>
+      <div className={styles.howItWorksSection} id="howitworks">
         <div className={styles.sectionContainer}>
           <div className={styles.headerContainer}>
             <h2 className={styles.sectionTitle}>How it Works?</h2>

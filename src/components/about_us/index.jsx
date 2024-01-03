@@ -3,7 +3,7 @@ import PlanningImg from "../../assets/planning.jpeg";
 export default function AboutUsSection() {
   return (
     <>
-      <section className={styles.aboutSection}>
+      <section className={styles.aboutSection} id="aboutus">
         <div className={styles.aboutUsSection}>
           <div className={styles.upperSection}>
             <div className={styles.rideSection}>

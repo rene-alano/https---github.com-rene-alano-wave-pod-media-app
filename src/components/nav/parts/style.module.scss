@@ -4,4 +4,19 @@
   font-weight: 500;
   font-size: 18px;
   color: #fff;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease;
+  }
+
+  &:hover:before {
+    border-bottom: 2px solid #fff;
+  }
 }
