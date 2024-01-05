@@ -4,15 +4,15 @@ import HowItWorksCard from "./parts";
 export default function HowItWorksSection() {
   const howItWorks = [
     {
-      name: "1. Discover the Currents",
+      name: "Discover the Currents",
       desc: "Explore your brand's unique currents, goals, and challenges.",
     },
     {
-      name: "2. Craft the Tide",
+      name: "Craft the Tide",
       desc: "We tailor a digital strategy that rides the tide of your brand's journey.",
     },
     {
-      name: "3. Ride the Digital Swell",
+      name: "Ride the Digital Swell",
       desc: "Launch into action as we ride the waves of innovation, propelling your brand to new heights.",
     },
   ];
