@@ -51,37 +51,10 @@
 }
 
 .stepsContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 36px;
-}
-
-.steps {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
-  padding: 24px;
-}
-
-.stepTitle {
-  color: #edf2ff;
-  font-size: 20px;
-  margin: 0;
-}
-
-.stepDesc {
-  color: #edf2ff;
-  font-size: 18px;
-  margin: 0;
-}
-
-.barChart {
-  justify-self: center;
-  height: 40px;
-  width: 40px;
-  color: #edf2ff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 26px;
+  padding: 12px;
 }
 
 .testimonialContainer {
@@ -110,6 +83,13 @@
   color: #edf2ff;
   font-size: 40px;
   margin: 0;
+  text-align: center;
+}
+
+.founderName {
+  font-size: 40px;
+  font-weight: 700;
+  color: #5775f3;
 }
 
 .cofounder {

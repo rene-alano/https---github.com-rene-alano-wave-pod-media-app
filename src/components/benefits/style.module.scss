@@ -1,14 +1,13 @@
 .benefitSection {
-  padding: 48px;
-  display: flex;
-  justify-content: center;
+  padding: 48px 0px 0 0;
 }
 
 .sectionContainer {
+  padding: 48px;
   display: flex;
-  gap: 36px;
   flex-direction: column;
-  max-width: 1200px;
+  align-items: center;
+  gap: 24px;
 }
 
 .titleContainer {
@@ -50,47 +49,14 @@
 }
 
 .listContainer {
-  padding-bottom: 96px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 74px;
-  column-gap: 66px;
+  row-gap: 34px;
+  column-gap: 24px;
 }
 
-.benefitTitle {
-  font-size: 26px;
-  font-weight: 600;
-  margin: 0;
-}
-
-.benefits {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  transition: transform 0.3s ease;
-
-  &:hover {
-    transform: scale(1.1);
+@media only screen and (min-width: 1200px) {
+  .listContainer {
+    grid-template-columns: 1fr 1fr;
   }
-}
-
-.title {
-  font-size: 32px;
-  font-weight: 600;
-  margin: 0;
-}
-
-.desc {
-  font-size: 18px;
-  margin: 0;
-}
-
-.icon {
-  justify-self: center;
-  height: 40px;
-  width: 40px;
-  color: #000;
-  margin: 12px;
 }

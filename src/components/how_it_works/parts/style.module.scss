@@ -1,0 +1,38 @@
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  border: 2px solid #edf2ff;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.stepTitle {
+  color: #edf2ff;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+}
+
+.stepDesc {
+  color: #edf2ff;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.descBox {
+  height: auto;
+  width: auto;
+}
+
+.iconBox {
+  justify-self: center;
+  height: 40px;
+  width: 40px;
+  color: #edf2ff;
+}

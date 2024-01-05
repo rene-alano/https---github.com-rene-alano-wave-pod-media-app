@@ -21,21 +21,39 @@ export default function FooterSection() {
                 <br /> We're just a call away!
               </p>
 
-              <a className={styles.callUs}>Call us &rarr;</a>
+              <a href="tel:+123456789" className={styles.callUs}>
+                Call us &rarr;
+              </a>
             </div>
           </div>
           <div className={styles.lowerContent}>
-            <h1 className={styles.email}>hello@wavepodmedia.com</h1>
+            <h1 className={styles.email}>wavepodmedia@gmail.com</h1>
             <div className={styles.footerContainer}>
               <div className={styles.leftContent}>
                 <p className={styles.website}>WavePod.me</p>
                 <p className={styles.copyright}>© 2024</p>
               </div>
               <div className={styles.iconContainer}>
-                <Mail color={"#ffffff"} height="24px" width="24px" />
-                <LogoFacebook color={"#ffffff"} height="24px" width="24px" />
-                <LogoTwitter color={"#ffffff"} height="24px" width="24px" />
-                <LogoInstagram color={"#ffffff"} height="24px" width="24px" />
+                <a href="mailto:wavepodmedia@gmail.com" className={styles.icon}>
+                  <Mail color={"#ffffff"} height="24px" width="24px" />
+                </a>
+                <a
+                  href="https://www.facebook.com/facebook/"
+                  className={styles.icon}
+                >
+                  <LogoFacebook
+                    color={"#ffffff"}
+                    height="24px"
+                    width="24px"
+                    className={styles.icon}
+                  />
+                </a>
+                <a href="https://twitter.com/" className={styles.icon}>
+                  <LogoTwitter color={"#ffffff"} height="24px" width="24px" />
+                </a>
+                <a href="https://www.instagram.com/" className={styles.icon}>
+                  <LogoInstagram color={"#ffffff"} height="24px" width="24px" />
+                </a>
               </div>
             </div>
           </div>

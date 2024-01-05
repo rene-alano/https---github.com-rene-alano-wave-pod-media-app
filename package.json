@@ -2,6 +2,7 @@
   "name": "wave-pod-media-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://wavepodmedia.com/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -12,6 +13,8 @@
     "react-router-dom": "^6.21.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.9.0",
+    "react-typed": "^1.2.0",
+    "react-wavify": "^1.10.0",
     "save-dev": "^0.0.1-security",
     "web-vitals": "^2.1.4"
   },
@@ -40,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "react-card-flip": "^1.2.2",
     "sass": "^1.69.5"
   }
 }

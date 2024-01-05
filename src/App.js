@@ -5,12 +5,14 @@ import BenefitsSection from "./components/benefits";
 import PricingSection from "./components/pricing";
 import AboutUsSection from "./components/about_us";
 import FooterSection from "./components/footer";
+
 export default function App() {
   return (
     <div>
       <div>
         <NavBar />
         <HeroSection />
+
         <HowItWorksSection />
         <BenefitsSection />
         <PricingSection />

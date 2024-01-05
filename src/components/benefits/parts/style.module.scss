@@ -1,0 +1,41 @@
+.CardContainer {
+  border-radius: 25px;
+  border: 2px solid #888;
+  padding: 12px;
+  box-shadow: 2px 2px 5px #888;
+}
+.frontCard,
+.backCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: transform 0.3s ease;
+}
+
+.frontCard {
+  width: 500px;
+}
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.desc {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+.iconBox {
+  justify-self: center;
+  height: 40px;
+  width: 40px;
+  color: #000;
+  margin: 12px;
+}

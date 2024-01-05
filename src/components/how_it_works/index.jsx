@@ -1,9 +1,21 @@
 import styles from "./style.module.scss";
-import { ReactComponent as BarChart } from "../../assets/svg/bar-chart-outline.svg";
-import { ReactComponent as Leaf } from "../../assets/svg/leaf-outline.svg";
-import { ReactComponent as Mail } from "../../assets/svg/mail-open-outline.svg";
-import image from "../../assets/example.jpg";
+import image from "../../assets/WAVEPOD CO FOUNDER.jpg";
+import HowItWorksCard from "./parts";
 export default function HowItWorksSection() {
+  const howItWorks = [
+    {
+      name: "1. Discover the Currents",
+      desc: "Explore your brand's unique currents, goals, and challenges.",
+    },
+    {
+      name: "2. Craft the Tide",
+      desc: "We tailor a digital strategy that rides the tide of your brand's journey.",
+    },
+    {
+      name: "3. Ride the Digital Swell",
+      desc: "Launch into action as we ride the waves of innovation, propelling your brand to new heights.",
+    },
+  ];
   return (
     <>
       <div className={styles.howItWorksSection} id="howitworks">
@@ -11,45 +23,33 @@ export default function HowItWorksSection() {
           <div className={styles.headerContainer}>
             <h2 className={styles.sectionTitle}>How it Works?</h2>
             <p className={styles.description}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Dive into the digital ocean with Wavepod Media, where success
+              comes in waves.
             </p>
           </div>
           <div className={styles.stepsContainer}>
-            <div className={styles.steps}>
-              <BarChart className={styles.barChart} />
-              <h3 className={styles.stepTitle}>STEP 1</h3>
-              <p className={styles.stepDesc}>
-                Lorem ipsum dolor sit, amet <br />
-                consectetur adipisicing elit.
-              </p>
-            </div>
-            <div className={styles.steps}>
-              <Leaf className={styles.barChart} />
-              <h3 className={styles.stepTitle}>STEP 2</h3>
-              <p className={styles.stepDesc}>
-                Lorem ipsum dolor sit, amet <br />
-                consectetur adipisicing elit.
-              </p>
-            </div>
-            <div className={styles.steps}>
-              <Mail className={styles.barChart} />
-              <h3 className={styles.stepTitle}>STEP 3</h3>
-              <p className={styles.stepDesc}>
-                Lorem ipsum dolor sit, amet <br />
-                consectetur adipisicing elit.
-              </p>
-            </div>
+            {howItWorks?.map((item, index) => (
+              <HowItWorksCard
+                name={item.name}
+                desc={item.desc}
+                icon={item.icon}
+              />
+            ))}
           </div>
 
           <div className={styles.testimonialContainer}>
             <p className={styles.testimonial}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-              dolorum cupiditate ut id incidunt porro in est deleniti minus amet
-              commodi, ad sit natus velit, pariatur modi nobis et. Aliquid?
+              Hey there! 🌊 I'm &nbsp;
+              <span className={styles.founderName}>Ken</span>, co-founder of
+              Wavepod. We're not just a marketing agency; we're your brand's
+              surfing buddy in the vast digital ocean. Let's catch the waves of
+              success together! Ready to ride?
+              <br />
+              #WavepodJourney 🏄‍♂️
             </p>
             <div className={styles.cofounder}>
               <img src={image} alt="co-founder" className={styles.image}></img>
-              <p className={styles.name}>Juan Dela Cruz</p>
+              <p className={styles.name}>John Kenneth Buenafe</p>
               <p className={styles.role}>Co-Founder of WavePod Media</p>
             </div>
           </div>

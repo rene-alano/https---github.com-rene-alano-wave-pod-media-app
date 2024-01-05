@@ -4,17 +4,35 @@
   border: 1px solid #ddd;
   border-radius: 10px;
   display: flex;
+
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.planBasic {
+  &:hover {
+    border: 2px solid #4c6ef5;
+  }
 }
 
 .planStandard {
-  height: 620px;
-  border: 2px solid #1c7ed6;
+  height: 650px;
+  border: 2px solid #228be6;
   box-shadow: 2px 2px 30px #ddd;
+}
+
+.planPremium {
+  &:hover {
+    border: 2px solid #15aabf;
+  }
 }
 .planCard {
   margin: 32px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 12px;
 }
 
@@ -38,6 +56,10 @@
   margin: 0;
 }
 
+.priceBox {
+  display: flex;
+  align-items: center;
+}
 .price {
   color: #333;
   font-size: 36px;
@@ -55,23 +77,44 @@
   display: inline-block;
   text-decoration: none;
   font-weight: 600;
+  font-size: 18px;
   padding: 16px 32px;
-  border-radius: 20px;
+  border-radius: 10px;
   border: none;
   cursor: pointer;
-  color: #000;
-
   transform-origin: center;
   transition: transform 0.3s ease;
+}
+
+.basicButton {
+  color: #edf2ff;
+  background-color: #5c7cfa;
 
   &:hover {
-    transform: scale(1.1);
+    background-color: #4c6ef5;
+  }
+}
+
+.standardButton {
+  color: #e7f5ff;
+  background-color: #339af0;
+  &:hover {
+    background-color: #228be6;
+  }
+}
+
+.premiumButton {
+  color: #e3fafc;
+  background-color: #22b8cf;
+  &:hover {
+    background-color: #15aabf;
   }
 }
 
 .lowerContent {
   display: flex;
   flex-direction: column;
+
   gap: 8px;
 }
 

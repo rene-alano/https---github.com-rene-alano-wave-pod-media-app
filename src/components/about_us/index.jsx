@@ -1,11 +1,26 @@
 import styles from "./style.module.scss";
 import PlanningImg from "../../assets/planning.jpeg";
+import ReactCardFlip from "react-card-flip";
+import React, { useState, useEffect } from "react";
 export default function AboutUsSection() {
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const flippedHandler = () => {
+    setIsFlipped((prev) => !prev);
+  };
+
   return (
     <>
       <section className={styles.aboutSection} id="aboutus">
         <div className={styles.aboutUsSection}>
           <div className={styles.upperSection}>
+            <div className={styles.imageBox}>
+              <img
+                src={PlanningImg}
+                alt="women plannning"
+                className={styles.image}
+              />
+            </div>
             <div className={styles.rideSection}>
               <h3 className={styles.title}>Let's Ride the Wave Together.</h3>
               <p className={styles.rideContent}>
@@ -17,57 +32,36 @@ export default function AboutUsSection() {
                 Join us on this journey to elevate your brand!
               </p>
             </div>
-            <div className={styles.image}>
-              <img
-                src={PlanningImg}
-                alt="women plannning"
-                className={styles.image}
-              />
-            </div>
           </div>
           <div className={styles.lowerSection}>
-            <div className={`${styles.aboutUsContent} ${styles.contentSize}`}>
-              <h3>About Us</h3>
-              <p>
-                Welcome to <span className={styles.name}> Wavepod</span> Agency,
-                your digital marketing partner. We're here to ride the digital
-                wave, turning ideas into impactful results.
-              </p>
-            </div>
-            <div
-              className={`${styles.ourMissionContent} 
-            ${styles.contentSize}`}
-            >
-              <h3>Our Mission</h3>
-              <p>
-                Empowering businesses to thrive in the online realm through
-                strategic and creative digital marketing.
-              </p>
-            </div>
-            <div className={`${styles.whoWeAreContent} ${styles.contentSize}`}>
-              <h3>Who We Are</h3>
-              <p>
-                <span className={styles.name}> Wavepod</span> is a team of
-                passionate professionals dedicated to delivering tailored
-                solutions for your brand's success.
-              </p>
-            </div>
-            <div
-              className={`${styles.whatSetUsApartContent} ${styles.contentSize}`}
-            >
-              <h3>What Sets Us Apart</h3>
-              <p>
-                Strategic Approach: We craft personalized strategies that
-                resonate with your
-              </p>
-              <p>
-                Results-Driven: Data guides our decisions to ensure your
-                marketing efforts deliver measurable results.
-              </p>
-              <p>
-                Creativity Matters: Staying innovative keeps your brand ahead of
-                the curve.
-              </p>
+            <div className={styles.aboutUsContent}>
+              <div className={styles.about}>
+                <h3 className={styles.title}>About Us</h3>
+                <p className={styles.text}>
+                  At Wavepod Media, we help businesses to elevate in their
+                  industry and field of business, and to create an opportunity
+                  for them through giving them complete access to the digitized
+                  world and build bridges for them toward the modern age of
+                  brand marketing.
+                </p>
+              </div>
+
+              <div className={styles.mission}>
+                <h3 className={styles.title}>Mission</h3>
+                <p className={styles.text}>
+                  To merge the digital world and business with creativity and
+                  relevance to create meaningful and sustainable solutions that
+                  connect people and build culture.
+                </p>
+              </div>
+
+              <div className={styles.vision}>
+                <h3 className={styles.title}>Vision</h3>
+                <p className={styles.text}>
+                  To transform businesses with the help of our business as we
+                  commit to honor, inspire, and value our customers.
+                </p>
+              </div>
             </div>
           </div>
         </div>

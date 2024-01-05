@@ -1,6 +1,6 @@
 .listContainer {
   display: flex;
-  justify-content: center;
+
   align-items: center;
   gap: 16px;
   padding-bottom: 18px;
@@ -8,6 +8,14 @@
 
 .checkMark {
   color: green;
+  height: 24px;
+  width: 24px;
+  justify-self: center;
+  align-self: center;
+}
+
+.XMark {
+  color: red;
   height: 24px;
   width: 24px;
   justify-self: center;
